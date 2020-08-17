@@ -1,4 +1,4 @@
-package serviceb
+package main
 
 import (
 	"fmt"
@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	version := version.Get()
-	fmt.Printf("Service B Got Commit %s", version.GitCommit)
+	v := version.Get()
+	fmt.Printf("Service B Got Commit %s", v.GitCommit)
 }
