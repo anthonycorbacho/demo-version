@@ -7,5 +7,5 @@ import (
 
 func main() {
 	v := version.Get()
-	fmt.Printf("Service B Got Commit %s", v.GitCommit)
+	fmt.Printf("Service B Git Commit %s", v.GitCommit)
 }
