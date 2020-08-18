@@ -2,7 +2,7 @@
 TAG="[$(basename -- "$0")]"
 
 IMAGE_SRC_PATHS=( "servicea/" )
-source ../build.sh
+source ../build_common.sh
 
 
 # build
